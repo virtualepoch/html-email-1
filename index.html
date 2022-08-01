@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+            font: 18px "Raleway", sans-serif;
+            color: white;
+            background: linear-gradient(to bottom right, black, purple, black);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        #logo {
+            max-width: 100px;
+            margin: 30px auto;
+            animation: 4s shake infinite;
+        }
+
+        @keyframes shake {
+            2% {
+                transform: rotate(3deg);
+            }
+
+            4% {
+                transform: rotate(-3deg);
+            }
+
+            6% {
+                transform: rotate(3deg);
+            }
+
+            8% {
+                transform: rotate(-3deg);
+            }
+
+            10% {
+                transform: rotate(0);
+            }
+        }
+
+        #logo img {
+            border-radius: 50%;
+            box-shadow: 1px 2px 5px 3px rgb(0, 0, 0, 0.3);
+        }
+
+        #wrapper {
+            padding: 3% 0;
+            background: linear-gradient(purple, magenta, purple);
+        }
+
+        #social {
+            margin: 3% auto;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #social>li>a>img {
+            max-width: 50px;
+            margin: 0 5px;
+            border-radius: 20px;
+            box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);
+        }
+
+        h1,
+        p {
+            margin: 3%;
+        }
+
+        .btn {
+            float: right;
+            margin: 3%;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 8px;
+            animation: 3s pulse ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        hr {
+            height: 1px;
+            margin: 0 3%;
+            background: white;
+            clear: both;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact {
+            text-align: center;
+            padding: 3%;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <a href="https://www.virtualepoch.com" target="_blank">
+                    <img src="img/ve-logo-200.png" alt="">
+                </a>
+            </div>
+            <div>
+                <ul id="social">
+                    <li>
+                        <a href="#" target="_blank"><img src="img/facebook-128.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/youtube-128.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/twitter-128.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
+            <img src="/img/wp8070061-matrix-rain-wallpapers.jpg" alt="">
+        </div>
+        <div class="one-col">
+            <h1>HTML Email Template</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nisi illum expedita maxime corrupti
+                possimus facere. Excepturi quae in aperiam saepe, sequi officia dignissimos fugit nihil exercitationem
+                natus consectetur nulla voluptate. Id repellendus ullam ratione doloremque dolores reiciendis asperiores
+                vero.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt labore autem alias? Officia,
+                consequuntur! Exercitationem provident eveniet dignissimos repellendus modi.</p>
+            <a href="https://www.virtualepoch.com" class="btn">Learn More</a>
+            <hr>
+        </div>
+    </div>
+    <footer>
+        <p id="contact">
+            Virtual Epoch <br>
+            Boise, Idaho, United States <br>
+            www.virtualepoch.com <br>
+            contact@virtualepoch.com <br>
+        </p>
+        <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Ruslan
+            Babkin - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube
+            icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Md Tanvirul
+            Haque - Flaticon</a>
+    </footer>
+</body>
+
+</html>
