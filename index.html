@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Email Template-1</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
@@ -13,25 +13,7 @@
             margin: 0;
             padding: 0;
             border: 0;
-        }
-
-        body {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 3%;
-            font: 18px "Raleway", sans-serif;
-            color: white;
-            background: linear-gradient(to bottom right, black, purple, black);
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        #logo {
-            max-width: 100px;
-            margin: 30px auto;
-            animation: 4s shake infinite;
+            font: 22px "Raleway", sans-serif;
         }
 
         @keyframes shake {
@@ -56,113 +38,83 @@
             }
         }
 
-        #logo img {
-            border-radius: 50%;
-            box-shadow: 1px 2px 5px 3px rgb(0, 0, 0, 0.3);
-        }
-
-        #wrapper {
-            padding: 3% 0;
-            background: linear-gradient(purple, magenta, purple);
-        }
-
-        #social {
-            margin: 3% auto;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #social>li>a>img {
-            max-width: 50px;
-            margin: 0 5px;
-            border-radius: 20px;
-            box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);
-        }
-
-        h1,
-        p {
-            margin: 3%;
-        }
-
-        .btn {
-            float: right;
-            margin: 3%;
-            padding: 10px;
-            color: white;
-            text-decoration: none;
-            border: 1px solid white;
-            border-radius: 8px;
-            animation: 3s pulse ease-in-out infinite;
-        }
-
         @keyframes pulse {
             50% {
                 transform: scale(1.1);
             }
         }
-
-        hr {
-            height: 1px;
-            margin: 0 3%;
-            background: white;
-            clear: both;
-        }
-
-        footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #contact {
-            text-align: center;
-            padding: 3%;
-            font-size: 12px;
-        }
     </style>
 </head>
 
-<body>
-    <div id="wrapper">
-        <header>
-            <div id="logo">
-                <a href="https://www.virtualepoch.com" target="_blank">
-                    <img src="img/ve-logo-200.png" alt="">
-                </a>
-            </div>
-            <div>
-                <ul id="social">
-                    <li>
-                        <a href="#" target="_blank"><img src="img/facebook-128.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank"><img src="img/youtube-128.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank"><img src="img/twitter-128.png" alt=""></a>
-                    </li>
-                </ul>
-            </div>
+<body style="background: linear-gradient(purple,pink,purple);">
+    <div style="max-width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    color: white;
+    background: linear-gradient(to bottom right, black, purple, black);padding: 3%;">
+        <header style="display: flex; flex-direction: column;">
+            <a href="https://www.virtualepoch.com" target="_blank"
+                style="margin: 30px auto; animation: 4s shake infinite;">
+                <img src="https://html-email-1.vercel.app/img/ve-logo-200.png" style="max-width: 100px;
+                border-radius: 50%;
+                box-shadow: 1px 2px 5px 3px rgb(0, 0, 0, 0.3);" alt="">
+            </a>
+            <ul style="margin: 3% auto;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+                <li>
+                    <a href="#" target="_blank"><img src="https://html-email-1.vercel.app/img/facebook-128.png" style="max-width: 50px;
+            margin: 0 5px;
+            border-radius: 20px;
+            box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img src="https://html-email-1.vercel.app/img/youtube-128.png" style="max-width: 50px;
+            margin: 0 5px;
+            border-radius: 20px;
+            box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img src="https://html-email-1.vercel.app/img/twitter-128.png" style="max-width: 50px;
+            margin: 0 5px;
+            border-radius: 20px;
+            box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);" alt=""></a>
+                </li>
+            </ul>
         </header>
-        <div id="banner">
-            <img src="/img/wp8070061-matrix-rain-wallpapers.jpg" alt="">
-        </div>
+        <img src="https://html-email-1.vercel.app/img/wp8070061-matrix-rain-wallpapers.jpg" alt=""
+            style="max-width: 100%;">
         <div class="one-col">
-            <h1>HTML Email Template</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nisi illum expedita maxime corrupti
-                possimus facere. Excepturi quae in aperiam saepe, sequi officia dignissimos fugit nihil exercitationem
-                natus consectetur nulla voluptate. Id repellendus ullam ratione doloremque dolores reiciendis asperiores
-                vero.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt labore autem alias? Officia,
-                consequuntur! Exercitationem provident eveniet dignissimos repellendus modi.</p>
-            <a href="https://www.virtualepoch.com" class="btn">Learn More</a>
-            <hr>
+            <h1 style="margin: 20px 0; font-size: 30px;">Responsive HTML Email Template</h1>
+            <p style="margin: 20px 0;">You can download this template for free by pressing the download button below.
+            </p>
+            <p style="margin: 20px 0;">We have many more templates to choose from. We also design and code custom
+                templates. We deliver quick results and everything is always pixel-perfect and fully functional. We also
+                provide a money back guarantee.</p>
+            <a href="https://www.virtualepoch.com" style="float: right;
+            margin: 33px auto;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: 1px 2px 8px 5px rgb(255, 255, 255, 0.2);
+            background: linear-gradient(to bottom right, black, magenta, black);
+            animation: 3s pulse ease-in-out infinite;">DOWNLOAD</a>
+            <hr style="  height: 1px;
+            background: white;
+            clear: both;">
         </div>
     </div>
-    <footer>
-        <p id="contact">
+    <footer style="   display: flex;
+    flex-direction: column;
+    align-items: center;">
+        <p style=" text-align: center;
+        padding: 3%;
+        color: white;
+        font-size: 12px;">
             Virtual Epoch <br>
             Boise, Idaho, United States <br>
             www.virtualepoch.com <br>
